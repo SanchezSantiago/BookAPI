@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Santiago",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.4.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.1",
+    "express-jwt": "^6.1.0",
+    "http": "^0.0.1-security",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.1.3",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15"
+  }
+}
